@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-/* 
 * {
   padding: 0;
   margin: 0;
@@ -108,53 +107,4 @@ main {
 .social-links ul a:hover {
   background-color: hsl(75, 94%, 57%);
   color: hsl(0, 0%, 8%);
-} */
-
-html {
-  height: 100%;
-  font-size: 16px;
-  font-family: 'Inter', sans-serif;
-}
-
-body {
-  height: 100%;
-}
-
-main {
-  height: 100%;
-  display: flex;
-  justify-content: center; /*horizontal*/
-  align-items: center; /*vertically*/
-}
-
-.social-profile-card {
-  background-color: hsl(0, 0%, 12%);
-  height: 38rem;
-  width: 24rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.profile-info {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.profile-info img {
-  border-radius: 100%;
-  width: 5rem;
-  height: 5rem;
-}
-
-.profile-info h1 {
-  color: hsl(0, 0%, 100%);
-}
-
-.profile-info p {
-  color: hsl(75, 94%, 57%);
-  font-weight: 600;
 }
