@@ -1,12 +1,19 @@
 /* */
 
+* {
+  padding: 0;
+  margin: 0;
+}
+
 html {
   height: 100%;
-  font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-family: sans-serif;
 }
 
 body {
+  background-color: #141414;
+  display: block;
   height: 100%;
 }
 
@@ -25,7 +32,13 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;
+  border-radius: 0.8rem;
+}
+
+.profile-content {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .profile-img img {
@@ -37,21 +50,68 @@ main {
 
 .profile-img h1 {
   color: white;
+  font-size: 1.3rem;
   font-weight: 600;
   margin-bottom: 0.8rem;
 }
 
 .profile-img p {
   color: #c4f82a;
+  font-size: 0.8rem;
   font-weight: 800;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  margin-top: 0.6rem;
+}
+
+.description p {
+  font-size: 0.9rem;
+  color: white;
+}
+
+.links {
+  height: 18rem;
+}
+
+.links ul {
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.links ul a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.8rem;
+  padding: 0.8rem;
+  background-color: #333333;
+  color: #ffffff;
+  border-radius: 0.8rem;
+  display: flex;
+  justify-content: center;
+}
+
+.links a:hover {
+  background-color: #c4f82a;
+  color: #182603;
+  transition: 0.5s;
 }
 
 /* attribution */
 .attribution {
   font-size: 11px;
   text-align: center;
+  color: white;
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: #bb6bf0;
 }
